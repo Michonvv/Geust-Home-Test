@@ -1,10 +1,8 @@
 <template>
 	<div class="layout-wrapper" :class="{'--firstVisitAnimation': firstVisit }">
-		<LayoutHeader />
 		<div class="page-wrapper default">
 			<slot />
 		</div>
-		<LayoutFooter />
 	</div>
 </template>
 

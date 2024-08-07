@@ -25,12 +25,7 @@ export default defineNuxtConfig({
 		}
 	},
 	css: [
-		"@/assets/scss/normalize.css",
-		"@/assets/scss/fonts.scss",
-		"@/assets/scss/main.scss",
-		"@/assets/scss/type.scss",
-		"@/assets/scss/forms.scss",
-		"@/assets/scss/cards.scss",
+		"@/assets/scss/main.css",
 	],
 	vite: {
 		css: {
