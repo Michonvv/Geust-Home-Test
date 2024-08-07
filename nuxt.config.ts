@@ -29,11 +29,6 @@ export default defineNuxtConfig({
 	],
 	vite: {
 		css: {
-			preprocessorOptions: {
-				scss: {
-					additionalData: '@import "@/assets/scss/mixins.scss"; @import "@/assets/scss/variables.scss";',
-				},
-			},
 		},
 	},
 	experimental: {
